@@ -1,4 +1,4 @@
-@import url('fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +6,9 @@
 }
 body{
     font-family: "Rubik",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #1A1A1A;
 }
 .header{
     position: fixed;
@@ -19,7 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 43px;
-    padding: 20px 140px;
+    padding: 24px 140px;
     background: rgba(26, 26, 26, 0.65);
 }
 .header__logo-description{
@@ -29,7 +32,7 @@ body{
 }
 .menu__items{
     display: flex;
-    gap: 30px;
+    gap: 32px;
 }
 .menu__item{
     list-style-type: none;
@@ -38,7 +41,7 @@ body{
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .header__phone{
     color: #FFF;
@@ -55,7 +58,7 @@ body{
     text-decoration: none;
     border: 1px solid #F79C1B;
     background: rgba(196, 196, 196, 0.00);
-    padding: 6px 22px;
+    padding: 8px 30px;
 }
 .content__head,
 .content__head-banner{
@@ -75,19 +78,20 @@ body{
 .content__head-banner{
     background: rgba(26, 26, 26, 0.65);
     color: #FFFFFF;
-    gap: 10px;
+    gap: 20px;
     padding: 32px;
-    max-width: 760px;
+    max-width: 700px;
 }
 .content__head-banner-title{
     text-align: center;
     font-size: 46px;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .content__head-banner-text_regular{
     text-align: center;
     font-size: 20px;
+    width: 500px;
     font-weight: 300;
 }
 .content__head-banner-text_bold{
@@ -103,4 +107,173 @@ body{
     text-decoration: none;
     background: #F79C1B;
     padding: 9px 52px;
+    text-align: center;
 }
+.content__top{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+}
+.product__title{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.product__items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product__item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product__description{
+    max-width: 360px;
+}
+.product__description-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.product__description-text{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 4px;
+}
+.product__description_medium{
+    max-width: 560px;
+}
+.content__request{
+    margin-top: 160px;
+}
+.request__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.request__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    height: 512px;
+    background: #EBEBEB;
+}
+.request__title{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.request__description{
+    max-width: 440px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.request__form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.request__form-field{
+    color: rgba(26, 26, 26, 0.50);
+    border: 1px solid #F79C1B;
+    background: rgba(196, 196, 196, 0.00);
+    transition: border 0.5s ease;
+    padding-left: 30px ;
+    width: 229px;
+    height: 46px;
+}
+.request__form-submit{
+    border: 1px solid;
+    color: #F6F6F6;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.32px;
+    background: #F79C1B;
+    width: 260px;
+    height: 50px;
+}
+.content__material-product{
+    margin-top: 170px;
+}
+.content__info{
+    margin-top: 160px;
+}
+.info-about__section{
+    display: flex;
+}
+.info-about__text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-about__title,
+.info-about__description{
+    max-width: 360px;
+}
+.info-about__text_container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.info-about__title{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.info-about__description{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.info-about__description-text{
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.info-about__btn{
+    width: 127px;
+}
+.info-about__section_revers{
+    flex-direction: row-reverse;
+}
+.info-about__background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 720px;
+}
+.info-about__background_section-one{
+    background-image: url("../img/info-1.jpg");
+}
+.info-about__background_section-two{
+    background-image: url("../img/info-2.png");
+}
+.info-about__background_section-three{
+    background-image: url("../img/info-3.png");
+}
+
+
