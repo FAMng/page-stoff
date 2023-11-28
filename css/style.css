@@ -506,6 +506,11 @@ body{
         text-align: center;
     }
 }
+@media (max-width: 540px){
+    .content__head-banner{
+        padding: 32px 0;
+    }
+}
 @media (max-width: 490px){
     .content__top{
         padding-top: 60px;
@@ -516,6 +521,9 @@ body{
         justify-content: center;
         align-items: center;
         height: 563px;
+    }
+    .content__head-banner{
+        padding: 32px 18px;
     }
     .content__head-banner-title{
         font-size: 20px;
@@ -647,5 +655,3 @@ body{
         padding: 0 30px;
     }
 }
-
-
