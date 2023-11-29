@@ -332,7 +332,7 @@ body{
 .info-about__background_section-three{
     background-image: url("../img/medium-3.png");
 }
-.footer{
+.footer_mt{
     margin: 160px 0;
 }
 .footer__container{
@@ -647,7 +647,7 @@ body{
         line-height: 32px;
         letter-spacing: 0.24px;
     }
-    .footer{
+    .footer_mt{
         margin:60px 0;
     }
     .footer__container {
